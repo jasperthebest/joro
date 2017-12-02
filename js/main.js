@@ -137,10 +137,39 @@ window.onbeforeunload = function() {
 		  slidesToScroll: 1,
 		  arrows: false
 		});
+		$(".workingSlide").slick({
+		  autoplay: false,
+		  autoplaySpeed: 3500,
+		  dots: false,
+		  infinite: true,
+		  fade: true,
+		  pauseOnHover: false,
+		  slidesToShow: 1,
+		  slidesToScroll: 1,
+		  arrows: true,
+		  adaptiveHeight: true,
+		  prevArrow: '<a href="javascript:void(0);" class="slick-prev slick-arrow"><img src="images/arrowforwardyellow.png" alt="Prev Slide"></a>',
+		  nextArrow: '<a href="javascript:void(0);" class="slick-next slick-arrow"><img src="images/arrowforwardyellow.png" alt="Next Slide"></a>'
+		});
 		$('.nextMove').click(function(){
 			$('.slickMove').slick('slickNext');
 			return false;
 		});
+		/* Click Outside Submenu Close */
+		$(document).mouseup(function (e) {
+		    var container = $(".workHere");
+		    if (!container.is(e.target) && container.has(e.target).length === 0) {
+ 		        $('.workPopup').removeClass('active');
+		    }
+		});
+		/* Open Pop Up Working Stills */
+		$('.workMore').click(function(){
+			var dataopen = $(this).data('open');
+			$('#'+dataopen).addClass('active');
+			$('.workingSlide').slick('setPosition');
+			return false;
+		});
+		/* Team Show Face */
 		$('#face0').show();
 		$('.rhombus > div > div').click(function(){
 			if(!$(this).hasClass('active')) {

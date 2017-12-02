@@ -301,6 +301,7 @@
    <li>Cinematographer: Diegou and John Romeo</li>
    <li>Cast: Khushali Kumar,Anthony Dasan Jesudasan</li>
    </ul>
+   <a href="#" data-open="showworkStill1" class="workMore">Working Stills</a>
    </div>
    <div>
    <h5>Maadathy (In Progress)</h5>
@@ -311,6 +312,7 @@
    <li>Co-Producer: Leena Manimekalai</li>
    <li>Cast: Kumar, Semmalar and Saranya</li>
    </ul>
+   <a href="#" data-open="showworkStill2" class="workMore">Working Stills</a>
    </div>
    </div>
    <div class="upcomForeign">
@@ -401,6 +403,40 @@
    <input type="submit" class="sendMe" name="">
    </div>
    </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   <!-- Popup Working Stills -->
+   <div class="workPopup" id="showworkStill1">
+   <div class="text-center">
+   <a href="javascript:void(0);" class="closeStills"></a>
+   <div class="workHere">
+   <h3>100 Questions Working Stills</h3>
+   <div class="workingSlide">
+   <div>
+   <img src="images/joro_backgrnd1.jpg" alt="Working Stills 1">
+   </div>
+   <div>
+   <img src="images/joro_backgrnd2.jpg" alt="Working Stills 2">
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   <!-- Popup Working Stills -->
+   <div class="workPopup" id="showworkStill2">
+   <div class="text-center">
+   <a href="javascript:void(0);" class="closeStills"></a>
+   <div class="workHere">
+   <h3>Maadathy Working Stills</h3>
+   <div class="workingSlide">
+   <div>
+   <img src="images/joro_backgrnd2.jpg" alt="Working Stills 2">
+   </div>
+   <div>
+   <img src="images/joro_backgrnd1.jpg" alt="Working Stills 1">
    </div>
    </div>
    </div>

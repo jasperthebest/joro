@@ -28,9 +28,12 @@
 	.aboutSlide h2 { padding-bottom: 25px; }
 	.nilaShort>div:last-child { display: block; }
 	.workUs>div>div { padding: 30px 30px 10px; }
-	.quoteSlide>div, .aboutSlide>div, .ourTeam>div>div, .workOur > div, .nilaShort>div:last-child>div, .nilaShort>div .blockOut>div, .listTwo > div, .upcomForeign { opacity: 1; -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
-      .upcomingProjects:before, .workOur:before, .aboutSlide:before { -webkit-transform: scaleY(1); -moz-transform: scaleY(1); -ms-transform: scaleY(1); -o-transform: scaleY(1); transform: scaleY(1); }
-      .nilaShort>div .trailerPart { opacity: 1; -webkit-transform: scaleY(1); -moz-transform: scaleY(1); -ms-transform: scaleY(1); -o-transform: scaleY(1); transform: scaleY(1); }
+	.quoteSlide>div, .aboutSlide>div, .ourTeam>div>div, .workOur > div, .nilaShort>div:last-child>div, .nilaShort>div .blockOut>div, .listTwo > div, .upcomForeign { opacity: 1; -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+    .upcomingProjects:before, .workOur:before, .aboutSlide:before { -webkit-transform: scaleY(1); -moz-transform: scaleY(1); -ms-transform: scaleY(1); transform: scaleY(1); }
+    .nilaShort>div .trailerPart { opacity: 1; -webkit-transform: scaleY(1); -moz-transform: scaleY(1); -ms-transform: scaleY(1); transform: scaleY(1); }
+}
+@media screen and (max-width:730px) {
+	.workHere { width: 100%; }
 }
 @media screen and (max-width:680px) {
 	.contactBar>div { width: 100%; }
@@ -52,6 +55,11 @@
 	.talkMore a { font-size: 18px; padding-bottom: 15px; }
 	.talkMore h3 { font-size: 22px; }
 	.talkMore p { font-size: 16px; line-height: 22px; }
+	.workHere h3 { font-size: 20px; padding-bottom: 25px; }
+	.workingSlide .slick-arrow.slick-next { right: 0; }
+	.workingSlide .slick-arrow.slick-prev { left: 0; }
+	.workingSlide .slick-arrow img { -webkit-transform: scale(0.65); -moz-transform: scale(0.65); -ms-transform: scale(0.65); transform: scale(0.65); }
+	.workHere { padding: 50px 0; }
 }
 @media screen and (max-width:380px) {
 	h1 { font-size: 28px; }

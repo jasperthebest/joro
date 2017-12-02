@@ -375,7 +375,11 @@ a { color: $black; @extend .transitionRegular; }
   .nextSlide { padding-top: 20px; }
 }
 .listTwo { border-bottom: 1px solid rgba(255,255,255,0.3); @include display(flex); @include flex-direction(row); @include flex-wrap(wrap); margin-bottom: 35px; padding-bottom: 15px;
-  > div { width: 50%; opacity: 0; @include transform(translateY(30px)); @extend .transitionMove; }
+  > div { opacity: 0; padding-bottom: 30px; position: relative; width: 50%; @include transform(translateY(30px)); @extend .transitionMove; 
+    .workMore { bottom: 15px; color: $yellow; display: inline-block; left: 0; position: absolute;
+      &:hover { color: $white; }
+    }
+  }
 }
 .upcomForeign { opacity: 0; @include transform(translateY(30px)); @extend .transitionMove; }
 .topArrow { cursor: pointer; margin-top: 30px; @include animation-name(moveSlight); @include animation-delay(0s); @include animation-duration(1.3s); @include animation-iteration-count(infinite); @include animation-timing-function(ease); @include animation-fill-mode(both); }
@@ -440,6 +444,33 @@ a { color: $black; @extend .transitionRegular; }
 }
 .backSlide { display: inline-block; left: 15px; opacity: 0; position: fixed; top: 15px; visibility: hidden; z-index: 3; @include transform(rotate(180deg) scale(0.6)); @extend .transitionRegular;
   &.show { opacity: 1; visibility: visible; }
+}
+.workPopup { background-color: rgba(0,0,0,0.9); height: 100%; left: 0; opacity: 0; padding: 20px; position: fixed; top: 0; visibility: hidden; width: 100%; z-index: 21; @include transform(scale(0.9)); @extend .backface; @extend .transitionRegular;
+  &.active { opacity: 1; visibility: visible; @include transform(scale(1)); }
+}
+.workHere { display: inline-block; padding: 40px 0; width: 700px; 
+  h3 { color: $white; padding-bottom: 35px; }
+}
+.workingSlide {
+  .slick-arrow { display: inline-block; position: absolute; top: 50%; z-index: 2; @include transform(translateY(-50%));
+    img { @include transform(scale(1)); @extend .transitionRegular; }
+    &:hover {
+      img { @include transform(scale(0.65)); }
+    }
+    &.slick-prev { left: 15px; @include transform(translateY(-50%) rotate(180deg)); }
+    &.slick-next { right: 15px; }
+  }
+  .slick-slide { text-align: center;
+    img { margin: 0 auto; width: 100%; }
+  }
+}
+.closeStills { display: inline-block; height: 20px; position: absolute; right: 30px; top: 20px; width: 20px; @extend .transitionRegular;
+  &:hover {
+    &:before, &:after { background-color: $yellow; } 
+  }
+  &:before, &:after { background-color: $white; content: ' '; height: 25px; left: 15px; position: absolute; width: 2px; @extend .transitionRegular; }
+  &:before { @include transform(rotate(45deg)); }
+  &:after { @include transform(rotate(-45deg)); }
 }
 
 @import "CSS:css/responsive";
