@@ -472,5 +472,10 @@ a { color: $black; @extend .transitionRegular; }
   &:before { @include transform(rotate(45deg)); }
   &:after { @include transform(rotate(-45deg)); }
 }
+.madebyjasper { display: inline-block; font-size: 12px; line-height: 30px;
+  a { color: #333; display: inline-block; font-size: 14px; margin-bottom: 0; padding-left: 8px; text-decoration: underline; text-decoration-style: wavy;
+    &:hover { color: $white; }
+  }
+}
 
 @import "CSS:css/responsive";

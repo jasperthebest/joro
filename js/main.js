@@ -176,6 +176,7 @@ window.onbeforeunload = function() {
 				var dataid = $(this).data('click');
 				$('.rhombus > div > div').removeClass('active');
 				$(this).addClass('active');
+				$("html, body").animate({ scrollTop: $('#stepupAnimate').offset().top }, 700);
 				$('.faceList').slideUp();
 				$('#'+dataid).slideDown();
 			}

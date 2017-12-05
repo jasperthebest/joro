@@ -127,7 +127,7 @@
    </div>
    </div>
    </div>
-   <div>
+   <div id="stepupAnimate">
    <div>
    <div class="faceList" id="face0">
    <div class="faceDetail">
@@ -382,6 +382,7 @@
    <a href="mailto:info@joromotionpictures.com"><i class="fa fa-envelope" aria-hidden="true"></i>info@joromotionpictures.com</a>
    <!-- <a href="#"><i class="fa fa-instagram" aria-hidden="true">@joromotionpictures</i></a>-->
    </div>
+   <span class="madebyjasper">Made by<a href="http://www.coffeeowls.in/" target="_blank">Coffee Owl</a></span>
    </div>
    </div>
    <div>
