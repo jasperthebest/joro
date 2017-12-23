@@ -115,7 +115,7 @@
    <img src="images/mihikabaskar.jpg" alt="Mihika Baskar"/>
    </div>
    <div class="thirdBus" data-click="face3">
-   <img src="images/johnromeo.jpg" alt="John Romeo"/>
+   <img src="images/angel.jpg" alt="Angel Xavier"/>
    </div>
    <div class="fourthBus" data-click="face4">
    <img src="images/bishalkar.jpg" alt="Bishalkar"/>
@@ -132,7 +132,7 @@
    <div class="faceList" id="face0">
    <div class="faceDetail">
    <div>
-   <img src="images/johnromeo.jpg" alt="Face 0">
+   <img src="images/johnromeo.jpg" alt="John Romeo">
    </div>
    <div>
    <div>
@@ -146,21 +146,21 @@
    <div class="faceList" id="face3">
    <div class="faceDetail">
    <div>
-   <img src="images/johnromeo.jpg" alt="Face 1">
+   <img src="images/angel.jpg" alt="Angel Xavier">
    </div>
    <div>
    <div>
-   <h5>John Romeo</h5>
-   <h6>Founder and Producer</h6>
+   <h5>Angel Xavier</h5>
+   <h6>Actor</h6>
    </div>
    </div>
    </div>
-   <p>As the Founder of Joro Motion Pictures, John is driving the company's vision of bringing extraordinary ideas to life with great talent and without limits. He has 10 years of leadership experience as a Filmmaker, Film Faculty, Theatre Director, Screenwriter and Cinematographer.</p>
+   <p>With extensive experience in film making and acting in national and internationally projects, Angel is very active, enthusiastic and creative. She has directed advertisements for our international clients and also, acted in our Italian short film production.</p>
    </div>
    <div class="faceList" id="face2">
    <div class="faceDetail">
    <div>
-   <img src="images/mihikabaskar.jpg" alt="Face 1">
+   <img src="images/mihikabaskar.jpg" alt="Mihika Bhaskaran">
    </div>
    <div>
    <div>
@@ -174,7 +174,7 @@
    <div class="faceList" id="face1">
    <div class="faceDetail">
    <div>
-   <img src="images/benchamin.jpg" alt="Face 1">
+   <img src="images/benchamin.jpg" alt="Benchamin">
    </div>
    <div>
    <div>
@@ -188,7 +188,7 @@
    <div class="faceList" id="face4">
    <div class="faceDetail">
    <div>
-   <img src="images/bishalkar.jpg" alt="Face 1">
+   <img src="images/bishalkar.jpg" alt="Bishal Kar">
    </div>
    <div>
    <div>
@@ -202,7 +202,7 @@
    <div class="faceList" id="face5">
    <div class="faceDetail">
    <div>
-   <img src="images/jeevan-arvind.jpg" alt="Face 1">
+   <img src="images/jeevan-arvind.jpg" alt="Jeevan Aravind">
    </div>
    <div>
    <div>
@@ -301,7 +301,7 @@
    <li>Cinematographer: Diegou and John Romeo</li>
    <li>Cast: Khushali Kumar,Anthony Dasan Jesudasan</li>
    </ul>
-   <a href="#" data-open="showworkStill1" class="workMore">Working Stills</a>
+   <!-- <a href="#" data-open="showworkStill1" class="workMore">Working Stills</a> -->
    </div>
    <div>
    <h5>Maadathy (In Progress)</h5>
@@ -434,10 +434,35 @@
    <h3>Maadathy Working Stills</h3>
    <div class="workingSlide">
    <div>
-   <img src="images/joro_backgrnd2.jpg" alt="Working Stills 2">
+   <img src="images/Maadathyworkstills0.jpg" alt="Maadathy Working Stills 1">
    </div>
    <div>
-   <img src="images/joro_backgrnd1.jpg" alt="Working Stills 1">
+   <img src="images/Maadathyworkstills1.jpg" alt="Maadathy Working Stills 2">
+   </div>
+   <div>
+   <img src="images/Maadathyworkstills2.jpg" alt="Maadathy Working Stills 3">
+   </div>
+   <div>
+   <img src="images/Maadathyworkstills3.jpg" alt="Maadathy Working Stills 4">
+   </div>
+   <div>
+   <img src="images/Maadathyworkstills4.jpg" alt="Maadathy Working Stills 5">
+   </div>
+   <div>
+   <img src="images/Maadathyworkstills5.jpg" alt="Maadathy Working Stills 6">
+   </div>
+   <div>
+   <img src="images/Maadathyworkstills6.jpg" alt="Maadathy Working Stills 7">
+   </div>
+   <div>
+   <img src="images/Maadathyworkstills7.jpg" alt="Maadathy Working Stills 8">
+   </div>
+   <div>
+   <img src="images/Maadathyworkstills8.jpg" alt="Maadathy Working Stills 9">
+   </div>
+   <div>
+   <img src="images/Maadathyworkstills9.jpg" alt="Maadathy Working Stills 10">
+   </div>
    </div>
    </div>
    </div>
